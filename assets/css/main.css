@@ -4143,6 +4143,7 @@ input, select, textarea {
 	#nav ul li a {
 		color: #000 !important;
 		font-weight: bold;
+		font-size: 14px !important;
 	}
 
 	.menu-item a :hover {
