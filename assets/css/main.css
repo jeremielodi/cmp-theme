@@ -4248,10 +4248,11 @@ input, select, textarea {
 .site_title {
 	position: fixed;
 	color: #001;
+	font-weight: 500;
 	margin-left: 80px;
-	font-weight: bold;
+	text-shadow: 1px 0px 1px #aaa;
 	cursor: pointer;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 @media only screen and (max-width: 900px) {

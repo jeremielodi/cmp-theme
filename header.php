@@ -42,7 +42,7 @@
             ?>
 
 
-            <span class="site_title"><?php echo $blog_title;?></span>
+<span class="site_title"><?php echo $blog_title;?></span>
  
                 <?php
                 wp_nav_menu(array(
