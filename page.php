@@ -2,6 +2,7 @@
 
 <?php
 
+
 	get_header();  
 
 	if(!is_front_page()) {

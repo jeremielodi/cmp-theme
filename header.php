@@ -34,9 +34,14 @@
             $blog_title = get_bloginfo();
             $site_icon_id = get_option('site_icon');
             $icon_url_data = wp_get_attachment_image_src($site_icon_id,  'thumbnail', true);
+
+            if (has_site_icon()){
+                echo '<img  id="logo"  src="' . get_site_icon_url() . '" alt="Site Icon" />';
+            }
+                
             ?>
 
-            <img id="logo" src="<?php echo $icon_url_data[0] ?>">
+
             <span class="site_title"><?php echo $blog_title;?></span>
             
             <center>
