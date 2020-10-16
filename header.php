@@ -53,14 +53,19 @@
                 ?>
 
             <div class="icons-container">
-                <ul class="icons">
+                <div class="follow-us">
+                <span>Suivez-nous sur</span>
+                </div>
+               <div style="text-align: center;">
+               <ul class="icons">
                    
-                    <li><a href="https://www.facebook.com/Eglisecmp" title="facebook" target="_blank" class="icon brands alt fa-facebook-f"></a></li>
-                    <li><a href="https://twitter.com/EgliseCMP" title="twitter" target="_blank" class="icon brands alt fa-twitter"></a></li>
-                    <li><a href="#" title="linkedin" class="icon brands alt fa-linkedin-in"></a></li>
-                    <li><a href="https://www.instagram.com/explore/locations/761846341/centre-missionnaire-philadelphie"  target="_blank" title="instagram" class="icon brands alt fa-instagram"></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCBIVcaYtQHKDbfvD2sh-AJw"  target="_blank"  title="youtube" class="icon brands alt fa-youtube"></a></li>
-                    <li><a href="#" title="whatsapp" class="icon brands alt fa-whatsapp"></a></li>
-                </ul>
+                   <li><a href="https://www.facebook.com/Eglisecmp" title="facebook" target="_blank" class="icon brands alt fa-facebook-f"></a></li>
+                   <li><a href="https://twitter.com/EgliseCMP" title="twitter" target="_blank" class="icon brands alt fa-twitter"></a></li>
+                   <li><a href="#" title="linkedin" class="icon brands alt fa-linkedin-in"></a></li>
+                   <li><a href="https://www.instagram.com/explore/locations/761846341/centre-missionnaire-philadelphie"  target="_blank" title="instagram" class="icon brands alt fa-instagram"></a></li>
+                   <li><a href="https://www.youtube.com/channel/UCBIVcaYtQHKDbfvD2sh-AJw"  target="_blank"  title="youtube" class="icon brands alt fa-youtube"></a></li>
+                   <li><a href="#" title="whatsapp" class="icon brands alt fa-whatsapp"></a></li>
+               </ul>
+               </div>
             </div>
         </header>

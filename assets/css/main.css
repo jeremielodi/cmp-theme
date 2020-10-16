@@ -3398,10 +3398,12 @@ input, select, textarea {
 
 		#header nav {
 			margin: 0px !important;
-			margin-right: 200px  !important;
+			margin-right: 100px  !important;
 			margin-left: 300px  !important;
 			text-align: center;
 			right: 40em;
+			overflow-y: hidden;
+			height: 60px;
 			top: 80;
 			/*border: 1px solid #001;*/
 		}
@@ -4115,25 +4117,54 @@ input, select, textarea {
 
 	}
 
-
+.follow-us {
+	font-size:12px; text-align:center; padding:2px; margin-top:7px;
+	font-weight: bold;
+	color: #001;
+}
 	.icons-container {
 		float: right;
 		right: 10px ;
 		top: 10px !important;
-		padding: 4px;
-		background-color:  rgba(0, 0, 0, 0.08);
+		padding: 2px;
+		background-color: #fafafa;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 0px 5px #aaa;
 		position: absolute;
 		height: 40px;
 		padding-top: 0px;
-		line-height: 30px;
+		line-height: 1px;
 		border-radius: 40px;
+		opacity: 0.8;
+		width: 130px;
+		overflow: hidden;
 	}
 
 	.icons-container:hover {
-		box-shadow: 0 1px 6px rgba(32,33,36,.28);
-    border-color: rgba(223,225,229,0);
+		width: 210px;
+		z-index: 1000;
+		position: absolute;
+		box-shadow: 0px 0px 5px #aaa;
+		border: 1px solid rgba(0,0,0, 0.08);
+		background-color: white;
+		opacity: 1;
 	}
 
+	.icons-container:hover  .follow-us{
+		display: none;
+	}
+	.icons-container:hover  .icons{
+		margin-top: 0px;
+	}
+
+
+	.icons-container .icons {
+		margin-top: -7px;
+	}
+
+	.icons li a:hover{
+		font-size: 15px;
+	}
 	#logo {
 		position: fixed;
 		margin: 10px;
