@@ -130,7 +130,13 @@
     } 
 
     .slide_title {
-        margin-top: 10px !important
+        margin-top: 10px !important;
+        display: none;
+    }
+
+    #header nav {
+        margin-left: 100px  !important;
+        /*border: 1px solid #001;*/
     }
 
     .slider_left_nav,
