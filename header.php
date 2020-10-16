@@ -43,9 +43,7 @@
 
 
             <span class="site_title"><?php echo $blog_title;?></span>
-            
-            <center>
-
+ 
                 <?php
                 wp_nav_menu(array(
                     'menu' => 'Principal',
@@ -53,7 +51,6 @@
                     'container_id' => 'nav'
                 ));
                 ?>
-            </center>
 
             <div class="icons-container">
                 <ul class="icons">

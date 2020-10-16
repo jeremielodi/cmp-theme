@@ -3397,11 +3397,13 @@ input, select, textarea {
 		}
 
 		#header nav {
-		margin-left: 100px;
-		margin-right: 200px;
-			/*position: absolute;*/
+			margin: 0px !important;
+			margin-right: 200px  !important;
+			margin-left: 300px  !important;
+			text-align: center;
 			right: 40em;
 			top: 80;
+			/*border: 1px solid #001;*/
 		}
 
 			#header nav ul {
