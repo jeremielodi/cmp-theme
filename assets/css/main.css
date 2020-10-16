@@ -4209,6 +4209,7 @@ input, select, textarea {
 	width: 100%;
 	padding: 5px;
 	min-height: 700px;
+	height: auto !important;
 }
 .post-content .content-desc {
 	width: 75%;
@@ -4227,7 +4228,6 @@ input, select, textarea {
 .side-block-title{
 	color: #000;
 	font-size: 16px;
-	text-decoration: underline !important;
 }
 .post {
 	width: 100%;
@@ -4254,6 +4254,31 @@ input, select, textarea {
 	cursor: pointer;
 	font-size: 18px;
 }
+
+.table-of-contents {
+	float: right;
+	width: 250px;
+	border: 1px solid #eee;
+	margin: 0 0 15px 15px;
+	z-index: 1;
+	position: relative;
+	color: #555d66;
+	background-color: #fff;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+
+.table-of-contents ul {
+	list-style: disc !important;
+	margin-left: 20px;
+}
+.table-of-contents h2 {
+	border-bottom: 1px solid #aaa;
+}
+
 
 @media only screen and (max-width: 900px) {
 	.site_title{
