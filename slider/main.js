@@ -1,4 +1,22 @@
 var slide_index = 1;
+
+function fadeIn(el, time) {
+    el.style.opacity = 0;
+  
+    var last = +new Date();
+    var tick = function() {
+      el.style.opacity = +el.style.opacity + (new Date() - last) / time;
+      last = +new Date();
+  
+      if (+el.style.opacity < 1) {
+        (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+      }
+    };
+  
+    tick();
+  }
+   
+
         displaySlides(slide_index);
 
         function nextSlide(n) {
@@ -19,6 +37,7 @@ var slide_index = 1;
                 slide_index = slides.length
             }
             for (i = 0; i < slides.length; i++) {
+               
                 slides[i].style.display = "none";
             }
             var elmt = slides[slide_index - 1];
