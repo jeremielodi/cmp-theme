@@ -4235,6 +4235,20 @@ input, select, textarea {
 	margin-bottom: 10px;
 
 }
+
+.event-section {
+	padding: 30px;
+	color: #000;
+	border-bottom: 1px solid #001 !important;
+	min-height: 300px;
+}
+.mini-section {
+	height: 70vh !important;
+}
+.event-section .title {
+	text-align: center;
+	color: #000;
+}
 .article{
 	border:  1px solid rgba(0, 0, 0, 0.105);;
 	padding: 10px;
@@ -4252,7 +4266,7 @@ input, select, textarea {
 	margin-left: 80px;
 	text-shadow: 1px 0px 1px #aaa;
 	cursor: pointer;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .table-of-contents {
